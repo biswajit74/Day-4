@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 140px;
 }
@@ -43,4 +47,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.last-part {
+    margin: 10px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding: 30px;
+}
+
+#border-a {
+    border-left: 7px solid rgb(233, 71, 42);
+}
+
+#border {
+    border-left: 7px solid blue;
+}
+
+.text {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
 }
